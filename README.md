@@ -12,3 +12,5 @@ Now, unto the slash commands. Those are the commands you use by typing "/" + the
 
 1. The /hello commands, which just prints out the text "Hello there!".
 2. The /print command, which allows you to type in a text, which the bot will then print out.
+3. The /ember command, it's basically an embed test, but it shows you different functions embeds have, so you can customize it however you want.
+4. The 
