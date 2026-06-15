@@ -6,3 +6,4 @@ First things first, in order to connect the code to the bot itself. You do that 
 The current functions (and commands which you can use) of the bot are:
 
 1. It shows every message sent in the guild(along with who wrote them) in the terminal.
+2. If someone reacts to a message with an emote, the bot will print out a text saying 
