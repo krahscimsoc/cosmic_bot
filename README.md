@@ -3,8 +3,12 @@ In order to use the bot, you need to download discord.py(it's an API, which the 
 
 First things first, in order to connect the code to the bot itself. You do that by swapping the "Your bot token" text in line 88 for your actual token. Next, you need to swap the "Your guild ID" text for the ID of the guild you want to use the bot in (I haven't tested it in multiple servers yet).
 
-The current functions (and commands which you can use) of the bot are:
+The current functions of the bot are:
 
 1. It shows every message sent in the guild(along with who wrote them) in the terminal.
 2. If someone reacts to a message with an emote, the bot will print out a text saying "(username) reacted to a message" (you need to uncomment lines 29 and 30 for this to work).
-3. 
+
+Now, unto the slash commands. Those are the commands you use by typing "/" + the command name. Discord should tell you what commands you can use. Right now, there are the following commands:
+
+1. The /hello commands, which just prints out the text "Hello there!".
+2. The /print command, which allows you to type in a text, which the bot will then print out.
