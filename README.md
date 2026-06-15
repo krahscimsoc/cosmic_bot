@@ -7,6 +7,8 @@ The current functions of the bot are:
 
 1. It shows every message sent in the guild(along with who wrote them) in the terminal.
 2. If someone reacts to a message with an emote, the bot will print out a text saying "(username) reacted to a message" (you need to uncomment lines 29 and 30 for this to work).
+3. If someone types ping, it responds with pong and vice versa.
+4. If a message starts with "hello", the bot will respond with "Hi (username)".
 
 Now, unto the slash commands. Those are the commands you use by typing "/" + the command name. Discord should tell you what commands you can use. Right now, there are the following commands:
 
