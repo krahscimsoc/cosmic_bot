@@ -1,0 +1,1 @@
+A pretty simple discord bot, it has only a few functions. In order to use the bot, you need to download discord.py(it's an API, which the bot uses).  
