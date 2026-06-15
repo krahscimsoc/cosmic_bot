@@ -25,11 +25,6 @@ class Client(commands.Bot):
             await message.channel.send('pong')
         if "pong" in message.content:
             await message.channel.send('ping')
-
-    async def on_member_join(member):
-        joins = discord.utils.get(member.guild.text_channels, name="joins")
-        if joins:
-            await joins.send(f'Welcome  {member.mention}!')
         
     #async def on_reaction_add(self, reaction, user):
         #await reaction.message.channel.send(f'{user} reacted to a message')
