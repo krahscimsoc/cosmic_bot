@@ -13,5 +13,5 @@ Now, unto the slash commands. Those are the commands you use by typing "/" + the
 1. The /hello commands, which just prints out the text "Hello there!".
 2. The /print command, which allows you to type in a text, which the bot will then print out.
 3. The /embed command, it's basically an embed test, but it shows you different functions embeds have, so you can customize it however you want.
-4. The /check_info command, which displays various information about the user which uses it, in a form of an embed. The information it dispays are:the username, the profile picture, the main(top) role, the date on which the user joined the server, the creation date of the account, all of the user's roles and the date when the command was issued.
+4. The /check_info command, which displays various information about the user which uses it, in a form of an embed. The information it displays are: the username, the profile picture, the main(top) role, the date on which the user joined the server, the creation date of the account, all of the user's roles and the date when the command was issued.
 5. The /button command, which is a test of the buttons. It displays 3 buttons, for now only one of them works. It has a "Click me" text written on it and makes the bot print out "(username) clicked me.".
