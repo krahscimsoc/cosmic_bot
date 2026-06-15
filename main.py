@@ -9,7 +9,7 @@ class Client(commands.Bot):
         print(f"Logged as {self.user}")
 
         try: 
-            guild = discord.Object(id=1353423401108377720)
+            guild = discord.Object(id=Your guild ID)
             synced = await self.tree.sync(guild=guild)
             print(f'Synced {len(synced)} commands to guild {guild.id}')
         except Exception as e:
@@ -38,7 +38,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = Client(command_prefix="!", intents=intents)
 
-TEST_GUILD = discord.Object(id=1353423401108377720)
+TEST_GUILD = discord.Object(id=Your guild ID)
 
 now = datetime.now()
 
